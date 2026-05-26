@@ -152,7 +152,7 @@ jobs:
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: |
-          railway up --service backend --config railway.toml --detach
+          railway up --service backend --detach
           BACKEND_URL=$(railway status --json | jq -r '.deployments[0].url // .url // "unknown"')
           echo "BACKEND_URL=$BACKEND_URL" >> $GITHUB_ENV
           echo "Backend deployed: $BACKEND_URL"
@@ -161,7 +161,7 @@ jobs:
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: |
-          railway up --service frontend --config railway.frontend.toml --detach
+          railway up --service frontend --detach
           FRONTEND_URL=$(railway status --json | jq -r '.deployments[0].url // .url // "unknown"')
           echo "FRONTEND_URL=$FRONTEND_URL" >> $GITHUB_ENV
           echo "Frontend deployed: $FRONTEND_URL"
