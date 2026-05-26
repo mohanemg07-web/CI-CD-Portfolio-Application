@@ -1,8 +1,6 @@
 import logging
 import uuid
 from datetime import datetime, timezone
-from logging.handlers import HTTPHandler
-
 import requests
 from pythonjsonlogger import jsonlogger
 from starlette.middleware.base import BaseHTTPMiddleware
