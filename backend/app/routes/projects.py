@@ -11,8 +11,8 @@ PROJECTS = [
             "metrics, and AI-assisted PR reviews."
         ),
         "tech_stack": ["React", "FastAPI", "Docker", "GitHub Actions", "Railway"],
-        "github_url": "https://github.com/mohanemg07-web/portfolio-app",
-        "live_url": "https://portfolio.example.com",
+        "github_url": "https://github.com/mohanemg07-web/CI-CD-Portfolio-Application",
+        "live_url": "https://ci-cd-portfolio-application.vercel.app",
         "year": 2026,
     },
     {
@@ -23,8 +23,8 @@ PROJECTS = [
             "error rate, and p95 latency to Grafana Cloud."
         ),
         "tech_stack": ["FastAPI", "Prometheus", "Grafana", "Python"],
-        "github_url": "https://github.com/mohanemg07-web/metrics-pipeline",
-        "live_url": "https://metrics.example.com",
+        "github_url": "https://github.com/mohanemg07-web/CI-CD-Portfolio-Application",
+        "live_url": "https://portfolio-backend-cw15.onrender.com/metrics",
         "year": 2025,
     },
     {
@@ -35,8 +35,8 @@ PROJECTS = [
             "monitoring and incident escalation."
         ),
         "tech_stack": ["Python", "Better Stack", "Docker", "Nginx"],
-        "github_url": "https://github.com/mohanemg07-web/observability-stack",
-        "live_url": "https://obs.example.com",
+        "github_url": "https://github.com/mohanemg07-web/CI-CD-Portfolio-Application",
+        "live_url": "https://portfolio-backend-cw15.onrender.com/health",
         "year": 2025,
     },
     {
@@ -47,8 +47,8 @@ PROJECTS = [
             "flag breaking changes, and post structured reviews."
         ),
         "tech_stack": ["GitHub Actions", "OpenAI", "Node", "Bash"],
-        "github_url": "https://github.com/mohanemg07-web/ai-review-bot",
-        "live_url": "https://github.com/mohanemg07-web/ai-review-bot",
+        "github_url": "https://github.com/mohanemg07-web/CI-CD-Portfolio-Application",
+        "live_url": "https://github.com/mohanemg07-web/CI-CD-Portfolio-Application/blob/main/.github/workflows/pr-summary.yml",
         "year": 2024,
     },
 ]
