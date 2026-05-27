@@ -1,3 +1,7 @@
+# LEGACY: kept for reference only. The backend is now deployed on Render
+# (https://portfolio-backend-cw15.onrender.com). This file is no longer the
+# source of truth for production deploys.
+
 [build]
 builder = "dockerfile"
 dockerfilePath = "Dockerfile.backend"

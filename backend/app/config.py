@@ -7,6 +7,9 @@ load_dotenv()
 
 APP_VERSION = "1.0.0"
 
+# Render / Railway inject $PORT at runtime; default to 8000 for local dev.
+PORT = int(os.getenv("PORT", 8000))
+
 # Origins that are always permitted, regardless of the ALLOWED_ORIGINS env var.
 # Keeps prod Vercel + local dev working even if the env var is misconfigured.
 _ALWAYS_ALLOWED = [

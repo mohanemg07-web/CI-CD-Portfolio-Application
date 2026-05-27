@@ -7,7 +7,7 @@ from app.config import ALLOWED_ORIGINS
 def add_cors(app: FastAPI) -> None:
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=ALLOWED_ORIGINS or ["*"],
+        allow_origins=ALLOWED_ORIGINS,
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
