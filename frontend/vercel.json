@@ -1,0 +1,10 @@
+{
+  "env": {
+    "VITE_API_URL": "https://portfolio-backend-cw15.onrender.com"
+  },
+  "build": {
+    "env": {
+      "VITE_API_URL": "https://portfolio-backend-cw15.onrender.com"
+    }
+  }
+}
